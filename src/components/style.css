@@ -1,0 +1,25 @@
+.paddingTop-small0-devices{
+    padding-top: 0px;
+}
+
+@media screen and (max-width: 450px) {
+    .paddingTop-small0-devices{
+        padding-top: 350px;
+    }
+}
+
+.paddingTop-small1-devices{
+    padding-top: 0px;
+}
+.margin-small-device{
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 385px) {
+    .paddingTop-small1-devices{
+        padding-top: 200px;
+    }
+    .margin-small-device{
+        margin-top: 1.5rem;
+    }
+}
