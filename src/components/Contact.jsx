@@ -8,8 +8,7 @@ const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
-    e.preventDefault();
-
+    alert("Form Has been Submitted")
     emailjs.sendForm('service_x2tpziq', 'template_volnvn3', form.current, 'imGchdTKT0Gi4rBAQ')
       .then((result) => {
           console.log(result.text);
@@ -18,6 +17,8 @@ const Contact = () => {
       });
 
       e.target.reset()
+      
+      window.location.reload();
       
       
   };
