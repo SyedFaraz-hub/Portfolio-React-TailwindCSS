@@ -20,7 +20,7 @@ const Home = () => {
 
           <div style={{display: "flex", gap: 10}}>
             <a
-              href="https://drive.google.com/uc?id=13PyrOdgSjd6QgR4TtaP8YvY3PxY0gt1Y&export=download"
+              href="https://drive.google.com/u/0/uc?id=1UqqRAtKE8LmBkuIATfDNP32ltXsQvNLq&export=download"
               smooth
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"

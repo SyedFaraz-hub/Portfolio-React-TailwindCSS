@@ -4,7 +4,9 @@ import MarkCoders from "../assets/portfolio/MarkCoders.png";
 import BabulQuran from "../assets/portfolio/Babul-Quran.png";
 import CryptoTracker from "../assets/portfolio/Crypto-Tracker.png";
 import MovieFlex from "../assets/portfolio/Movie-Flex.png";
-import TextUtils from "../assets/portfolio/TextUtils.png";
+import Techaholix from "../assets/portfolio/Techaholix.png";
+
+// import TextUtils from "../assets/portfolio/TextUtils.png";
 
 
 
@@ -18,34 +20,40 @@ const Portfolio = () => {
       github: "https://github.com/SyedFaraz-hub/GPT-3-Website-React",
       liveURL: "https://gp3-react.netlify.app/"
     },
+    
     {
       id: 2,
+      src: Techaholix,
+      liveURL: "https://techaholix.com/"
+    },
+    {
+      id: 3,
       src: BabulQuran,
       liveURL: "https://babul-quran.com/"
     },
     {
-      id: 3,
+      id: 4,
       src: MarkCoders,
       liveURL: "https://markcoders.com/"
     },
     {
-      id: 4,
+      id: 5,
       src: CryptoTracker,
       github: "https://github.com/SyedFaraz-hub/Crypto-Tracker-React",
       liveURL: "https://crypto-realtime-tracker.netlify.app/"
     },
     {
-      id: 5,
+      id: 6,
       src: MovieFlex,
       github: "https://github.com/SyedFaraz-hub/Movie-Flex-React",
       liveURL: "https://movie-flex-react.netlify.app/"
     },
-    {
-      id: 6,
-      src: TextUtils,
-      github: "https://github.com/SyedFaraz-hub/TextUtils-Tool-React",
-      liveURL: "https://textutils-9c2bf.web.app/"
-    },
+    // {
+    //   id: 7,
+    //   src: TextUtils,
+    //   github: "https://github.com/SyedFaraz-hub/TextUtils-Tool-React",
+    //   liveURL: "https://textutils-9c2bf.web.app/"
+    // },
   ];
 
   return (
